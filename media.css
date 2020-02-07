@@ -1,0 +1,44 @@
+ hr{
+ 	text-align: center;
+ 	width: 50%;
+ 	height: 3px;
+ 	background-color: #00f030;
+ }
+
+ body{
+ 	background-color: rgb(52,46,51);
+ 	opacity: 0.8;
+ }
+
+ p{
+ 	color: white;
+ 	font-size: 20px;
+ }
+
+ .image,.video{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	margin: 30px auto;
+ 	flex-flow: row wrap;
+ 	width: 80%;
+ }
+
+ .image div img{
+ 	width:300px;
+ }
+
+ .vidéo{
+ 	align-items: center;
+ }
+
+.video div video,iframe{
+	width:300px;
+}
+
+h1{
+	margin: auto;
+	color: white;
+	width: 50vw;
+	border: 2px inset #00f030;
+	box-shadow: 1px 1px 3px white;
+}
